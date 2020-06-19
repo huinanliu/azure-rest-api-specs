@@ -148,6 +148,13 @@
         ]
       }
     },
+    "Microsoft.AzureIIDT": {
+      "2020-06-10": {
+        "iidt": [
+          "AzureGov"
+        ]
+      }
+    },
     "Microsoft.AzureStack": {
       "2017-06-01": {
         "operations": [

@@ -1,25 +1,20 @@
 ﻿{
   "swagger": "2.0",
   "info": {
-    "title": "IIDTManagementClient",
-    "description": "Intelligent IT Digital Twin (IIDT) uses our proprietary discovery tool for corporate on-prem infrastructure and provisions its light-weight twin in Azure.",
-    "version": "2020-06-10"
+    "version": "2020-06-10",
+    "title": "azureiidt",
+    "description": "Description of the new service",
+    "x-ms-code-generation-settings": {
+      "name": "azureiidtClient"
+    }
   },
   "host": "management.azure.com",
-  "schemes": [
-    "https"
-  ],
-  "consumes": [
-    "application/json"
-  ],
-  "produces": [
-    "application/json"
-  ],
+  "schemes": [ "https" ],
+  "consumes": [ "application/json" ],
+  "produces": [ "application/json" ],
   "security": [
     {
-      "azure_auth": [
-        "user_impersonation"
-      ]
+      "azure_auth": [ "user_impersonation" ]
     }
   ],
   "securityDefinitions": {
